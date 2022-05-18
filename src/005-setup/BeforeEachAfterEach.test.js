@@ -9,7 +9,7 @@ const initializeCityDatabase = () => {
     setTimeout(() => {
       inMemoryDataBase = ["Vienna", "San Juan"];
       resolve();
-    }, 2000);
+    }, 1000);
   });
 };
 
@@ -18,7 +18,7 @@ const clearCityDatabase = () => {
     setTimeout(() => {
       inMemoryDataBase = [];
       resolve();
-    }, 2000);
+    }, 1000);
   });
 };
 
