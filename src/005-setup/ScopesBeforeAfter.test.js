@@ -10,7 +10,7 @@ const initializeCityDatabase = () => {
     setTimeout(() => {
       inMemoryDataBase = ["Vienna", "San Juan"];
       resolve();
-    }, 500);
+    }, 100);
   });
 };
 
@@ -19,7 +19,7 @@ const clearCityDatabase = () => {
     setTimeout(() => {
       inMemoryDataBase = [];
       resolve();
-    }, 500);
+    }, 100);
   });
 };
 
@@ -34,7 +34,7 @@ const initializeFoodDatabase = () => {
       inMemoryFootDataBase["Vienna"] = "Wiener Schnitzel";
       inMemoryFootDataBase["San Juan"] = "Mofongo";
       resolve();
-    }, 500);
+    }, 100);
   });
 };
 
